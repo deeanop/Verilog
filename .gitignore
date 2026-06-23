@@ -1,0 +1,71 @@
+# ==========================================
+# GitHub Gitignore for Verilog / VHDL / FPGA
+# ==========================================
+
+# Temporary Files and General Logs
+*.log
+*.jou
+*.txt
+*.str
+*.pbs
+*.rcs
+*.bak
+*~
+
+# Xilinx Vivado
+# ==========================================
+.Xil/
+Xilinx/
+*.dir/
+*.pb
+*.wxml
+*.wdb
+*.hwdef
+*.ip_user_files/
+*.run/
+*.srcs/utils_1/
+/hd_visual/
+vivado*.backup.jou
+vivado*.backup.log
+
+# Intel Quartus Prime / Altera
+# ==========================================
+db/
+incremental_db/
+simulation/
+timing/
+greybox_tmp/
+*.qws
+*.bak
+*.rpt
+*.smsg
+*.summary
+*.jdi
+*.pin
+*.done
+
+# ModelSim / QuestaSim / Icarus Verilog
+# ==========================================
+work/
+_info
+*.mpf
+*.mti
+*.wlf
+*.vst
+a.out
+*.vcd
+
+# MATLAB / Simulink / Simscape 
+# ==========================================
+slprj/
+*.slxc
+*.mex*
+*.mat
+*.mat 
+
+# Backups and OS
+# ==========================================
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
